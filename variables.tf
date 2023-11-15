@@ -150,14 +150,8 @@ data "ibm_is_instance" "app-vsi" {
 }
 
 variable "SAP_SOLUTION" {
-  type = object({
-    version_1 = string
-    version_2 = string
-  })
-  
-  default = {
-    version_1 = "S/4HANA 2022"
-    version_2 = "S/4HANA 2021"
+  type = string
+  default = "2020"
   }
 }
 
