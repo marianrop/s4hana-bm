@@ -153,7 +153,6 @@ variable "SAP_SOLUTION" {
   type = string
   default = "2020"
   }
-}
 
 variable "HANA_SID" {
 	type		= string
